@@ -168,7 +168,7 @@ export default function Home() {
                   </h3>
                   <div className="text-xs md:text-sm text-gray-600 space-y-1">
                     <p>PDF</p>
-                    <p>139.5 KB</p>
+                    <p>296 KB</p>
                   </div>
                 </div>
               </div>
