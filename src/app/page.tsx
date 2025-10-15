@@ -18,15 +18,14 @@ export default function Home() {
       <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-3 md:py-4 flex items-center justify-between gap-4">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-8 h-8 md:w-10 md:h-10 bg-[#b12025] rounded-full flex items-center justify-center relative">
-              <div className="w-6 h-6 md:w-8 md:h-8 border-2 border-white rounded-full" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-3 h-3 md:w-4 md:h-4 bg-white rounded-full" />
-              </div>
-            </div>
-            <span className="text-xl md:text-2xl font-bold text-[#b12025]">gob.pe</span>
-          </a>
+          {/* Logo */}
+<a href="#" className="flex items-center flex-shrink-0">
+  <img
+    src="/logo.png"
+    alt="Logo"
+    className="h-12 md:h-16 w-auto object-contain"
+  />
+</a>
 
           {/* Search Bar */}
           <div className="flex-1 max-w-xl">
@@ -165,7 +164,7 @@ export default function Home() {
                 {/* Document Info */}
                 <div className="flex-1">
                   <h3 className="font-semibold text-gray-900 mb-2 text-sm md:text-base">
-                    2. TECNOVIAS - Act. forma - Alcance (2025-06-13)
+                    2. SR PROYECTOS - Act. forma - Alcance (2025-06-13)
                   </h3>
                   <div className="text-xs md:text-sm text-gray-600 space-y-1">
                     <p>PDF</p>
@@ -175,12 +174,17 @@ export default function Home() {
               </div>
 
               {/* Download Button */}
-              <Button className="w-full bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50 transition-colors text-sm md:text-base">
-                <Download className="h-4 w-4 md:h-5 md:w-5 mr-2" />
-                Descargar
-              </Button>
-            </div>
-          </Card>
+              <a
+                href="/Sr-proyectos-acreditacion.pdf"
+                download
+                className="w-full bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50 transition-colors text-sm md:text-base flex items-center justify-center py-2 rounded-md"
+                >
+              <Download className="h-4 w-4 md:h-5 md:w-5 mr-2" />
+              Descargar
+              </a>
+              </div>
+              </Card>
+
 
           <Separator className="my-8 md:my-12" />
         </div>
