@@ -17,6 +17,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GOB: Instituto Nacional de Calidad",
   description: "166. SR PROYECTOS & CONSTRUCCIONES S.A.C.",
+  openGraph: {
+    title: "GOB: Instituto Nacional de Calidad",
+    description: "166. SR PROYECTOS & CONSTRUCCIONES S.A.C.",
+    url: "https://proyecto-gob-pe.vercel.app",
+    siteName: "INACAL",
+    locale: "es_PE",
+    type: "website",
+    },
 };
 
 export default function RootLayout({
