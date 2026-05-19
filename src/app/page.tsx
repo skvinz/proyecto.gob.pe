@@ -148,10 +148,9 @@ export default function Home() {
             </p>
           </div>
 
-     {/* Document Card */}
-<Card className="max-w-sm bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+          {/* Document Card */}
+         <Card className="max-w-sm bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
   <div className="p-4 md:p-6">
-
     <div className="flex gap-3 md:gap-4 mb-4 md:mb-6">
 
       {/* Document Thumbnail */}
@@ -165,36 +164,34 @@ export default function Home() {
 
       </div>
 
-      {/* Document Info */}
-      <div className="flex-1">
+                {/* Document Info */}
+                <div className="flex-1">
+                  <h3 className="font-semibold text-gray-900 mb-2 text-sm md:text-base">
+                    2. SR PROYECTOS - Act. forma - Alcance (2025-06-13)
+                  </h3>
+                  <div className="text-xs md:text-sm text-gray-600 space-y-1">
+                    <p>PDF</p>
+                    <p>296 KB</p>
+                  </div>
+                </div>
+              </div>
 
-        <h3 className="font-semibold text-gray-900 mb-2 text-sm md:text-base">
-          2. SR PROYECTOS - Act. forma - Alcance (2025-06-13)
-        </h3>
+              {/* Download Button */}
+              <a
+                href="/Sr-proyectos-acreditacion.pdf"
+                download
+                className="w-full bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50 transition-colors text-sm md:text-base flex items-center justify-center py-2 rounded-md"
+                >
+              <Download className="h-4 w-4 md:h-5 md:w-5 mr-2" />
+              Descargar
+              </a>
+              </div>
+              </Card>
 
-        <div className="text-xs md:text-sm text-gray-600 space-y-1">
-          <p>PDF</p>
-          <p>296 KB</p>
+
+          <Separator className="my-8 md:my-12" />
         </div>
-
-      </div>
-
-    </div>
-
-    {/* Download Button */}
-    <a
-      href="/Sr-proyectos-acreditacion.pdf"
-      download
-      className="w-full bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-50 transition-colors text-sm md:text-base flex items-center justify-center py-2 rounded-md"
-    >
-      <Download className="h-4 w-4 md:h-5 md:w-5 mr-2" />
-      Descargar
-    </a>
-
-  </div>
-</Card>
-
-<Separator className="my-8 md:my-12" />
+      </main>
 
       {/* Footer */}
       <footer className="bg-[#272f31] text-white pt-12 md:pt-16 pb-6 md:pb-8 border-t-[6px] md:border-t-8 border-t-[#9c7c6c]">
