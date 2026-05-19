@@ -149,17 +149,20 @@ export default function Home() {
           </div>
 
           {/* Document Card */}
-          <Card className="max-w-sm bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-            <div className="p-4 md:p-6">
-              <div className="flex gap-3 md:gap-4 mb-4 md:mb-6">
-                {/* Document Thumbnail */}
-                <div className="w-20 h-28 md:w-24 md:h-32 border border-gray-300 bg-gray-100 flex-shrink-0 relative overflow-hidden">
-                  <img
-                    src="https://ext.same-assets.com/1487289080/1324530438.jpeg"
-                    alt="Document preview"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+         <Card className="max-w-sm bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+  <div className="p-4 md:p-6">
+    <div className="flex gap-3 md:gap-4 mb-4 md:mb-6">
+
+      {/* Document Thumbnail */}
+      <div className="w-20 h-28 md:w-24 md:h-32 border border-gray-300 bg-white rounded-lg flex-shrink-0 relative overflow-hidden">
+
+        <img
+          src="/pdf-icon.png"
+          alt="PDF Preview"
+          className="w-full h-full object-contain p-2"
+        />
+
+      </div>
 
                 {/* Document Info */}
                 <div className="flex-1">
